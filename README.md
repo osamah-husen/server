@@ -2,6 +2,17 @@
 
 This repository documents the setup, configuration, and maintenance of my personal home lab using a **Dell PowerEdge R710** server. It runs a virtualized environment for testing and learning enterprise-level IT infrastructure.
 
+
+
+
+---
+
+## 🧠 Goals of the Lab
+
+- Gain hands-on experience with enterprise hardware/software.
+- Practice virtualization, network services, and OS configuration.
+- Develop system administration and troubleshooting skills.
+
 ---
 
 ## 🖥️ Server Overview
@@ -47,27 +58,28 @@ This repository documents the setup, configuration, and maintenance of my person
 ### 4. 🛡️ Ongoing Maintenance
 
 - Monitor system health and logs via **iDRAC dashboard**.
+   <img src="https://i.imgur.com/w8kJPz3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 - Regularly review:
   - **Hardware failures**
-  - **Performance issues**
-  - **Security patches & updates**
+
+   <br><img src="https://i.imgur.com/w8kJPz3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
+   
+    - fans
+
+   <br><img src="https://i.imgur.com/Ap6gray.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
+  </br>
+  
+    - tem
+
+   <br><img src="https://i.imgur.com/bbR0ZZU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
+  
+    - power
+  
+   <br><img src="https://i.imgur.com/g7Dpkbb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
+- **Performance issues**
+- **Security patches & updates**
 - Use remote tools to apply updates and resolve alerts with minimal downtime.
-
----
-
-## 📸 Screenshots
-
-*(To be added)* – Proxmox UI, iDRAC dashboard, VM overview, RAID config, etc.
-
----
-
-## 🧠 Goals of the Lab
-
-- Gain hands-on experience with enterprise hardware/software.
-- Practice virtualization, network services, and OS configuration.
-- Develop system administration and troubleshooting skills.
-
----
-
-## 📁 Folder Structure
+   <img src="https://i.imgur.com/eF3Dbgt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
