@@ -1,4 +1,4 @@
-# 🧪 Home Lab  <br><br>Dell PowerEdge R710 Server Setup
+#  Server Home Lab  <br><br>Dell PowerEdge R710 Server Setup
 
 This repository documents the setup, configuration, and maintenance of my personal home lab using a **Dell PowerEdge R710** server. It runs a virtualized environment for testing and learning enterprise-level IT infrastructure.
 
@@ -7,7 +7,7 @@ This repository documents the setup, configuration, and maintenance of my person
 
 ---
 
-## 🧠 Goals of the Lab
+##  Goals of the Lab
 
 - Gain hands-on experience with enterprise hardware/software.
 - Practice virtualization, network services, and OS configuration.
@@ -15,7 +15,7 @@ This repository documents the setup, configuration, and maintenance of my person
 
 ---
 
-## 🖥️ Server Overview
+##  Server Overview
 
 - **Server Model**: Dell PowerEdge R710
 - **Hypervisor**: Proxmox VE (Virtual Environment)
@@ -23,9 +23,9 @@ This repository documents the setup, configuration, and maintenance of my person
 
 ---
 
-## ⚙️ Project Steps
+##  Project Steps
 
-### 1. 🧱 Initial Setup
+### 1.  Initial Setup
 
 - Installed **Proxmox VE** as the main hypervisor.
 - Deployed **7 Virtual Machines**:
@@ -36,7 +36,7 @@ This repository documents the setup, configuration, and maintenance of my person
 
 ---
 
-### 2. 🔧 Physical Hardware Upgrades
+### 2.  All Physical Hardware Upgrades
 
 - Installed **10Gb NIC** for high-speed networking.
 - Upgraded **RAM modules** for better virtualization performance.
@@ -44,9 +44,8 @@ This repository documents the setup, configuration, and maintenance of my person
 
 ---
 
-### 3. 🛠️ Configuration
+### 3. 🛠️ all Configuration
 
-- Set up:
   - **iDRAC** (Integrated Dell Remote Access Controller)
   - **RAID Controller** for disk management (RAID 5 config)
   - **BIOS tuning** for performance and virtualization support
@@ -57,8 +56,11 @@ This repository documents the setup, configuration, and maintenance of my person
 
 ### 4. 🛡️ Ongoing Maintenance
 
+- **Performance issues**
+- **Security patches & updates**
+- Use remote tools to apply updates and resolve alerts with minimal downtime.
 - Monitor system health and logs via **iDRAC dashboard**.
-   <img src="https://i.imgur.com/w8kJPz3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br><img src="https://i.imgur.com/eF3Dbgt.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 
 - Regularly review:
@@ -78,8 +80,6 @@ This repository documents the setup, configuration, and maintenance of my person
     - power
   
    <br><img src="https://i.imgur.com/g7Dpkbb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br>
-- **Performance issues**
-- **Security patches & updates**
-- Use remote tools to apply updates and resolve alerts with minimal downtime.
-   <img src="https://i.imgur.com/eF3Dbgt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+   
 
